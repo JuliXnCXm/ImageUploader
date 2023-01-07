@@ -85,7 +85,7 @@
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .photoUploadedContainer {
         width: auto;
     }
