@@ -33,10 +33,10 @@ const UploadPhoto = () => {
             },
             })
             .then((res) => {
-            // setShow(false);
-            // if (res.status === 201) {
-            //     navigate(`/user/photo/upload/${res.data.data._id}`);
-            // }
+            setShow(false);
+            if (res.status === 201) {
+                navigate(`/user/photo/upload/${res.data.data._id}`);
+            }
             })
             .catch((err) => {
             console.log(err);
