@@ -80,7 +80,7 @@ form {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .imageContainer {
         position: inherit;
         margin: 0 auto;
