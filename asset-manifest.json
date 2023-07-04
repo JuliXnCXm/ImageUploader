@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/ImageUploader/static/css/main.a371d364.chunk.css",
-    "main.js": "/ImageUploader/static/js/main.78545e85.chunk.js",
-    "main.js.map": "/ImageUploader/static/js/main.78545e85.chunk.js.map",
+    "main.css": "/ImageUploader/static/css/main.5e8e2476.chunk.css",
+    "main.js": "/ImageUploader/static/js/main.6ca5e9c9.chunk.js",
+    "main.js.map": "/ImageUploader/static/js/main.6ca5e9c9.chunk.js.map",
     "runtime-main.js": "/ImageUploader/static/js/runtime-main.2de8f4c1.js",
     "runtime-main.js.map": "/ImageUploader/static/js/runtime-main.2de8f4c1.js.map",
-    "static/js/2.145e70be.chunk.js": "/ImageUploader/static/js/2.145e70be.chunk.js",
-    "static/js/2.145e70be.chunk.js.map": "/ImageUploader/static/js/2.145e70be.chunk.js.map",
+    "static/js/2.a7544644.chunk.js": "/ImageUploader/static/js/2.a7544644.chunk.js",
+    "static/js/2.a7544644.chunk.js.map": "/ImageUploader/static/js/2.a7544644.chunk.js.map",
     "index.html": "/ImageUploader/index.html",
-    "static/css/main.a371d364.chunk.css.map": "/ImageUploader/static/css/main.a371d364.chunk.css.map",
-    "static/js/2.145e70be.chunk.js.LICENSE.txt": "/ImageUploader/static/js/2.145e70be.chunk.js.LICENSE.txt",
+    "static/css/main.5e8e2476.chunk.css.map": "/ImageUploader/static/css/main.5e8e2476.chunk.css.map",
+    "static/js/2.a7544644.chunk.js.LICENSE.txt": "/ImageUploader/static/js/2.a7544644.chunk.js.LICENSE.txt",
     "static/media/image.3710b8a3.svg": "/ImageUploader/static/media/image.3710b8a3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2de8f4c1.js",
-    "static/js/2.145e70be.chunk.js",
-    "static/css/main.a371d364.chunk.css",
-    "static/js/main.78545e85.chunk.js"
+    "static/js/2.a7544644.chunk.js",
+    "static/css/main.5e8e2476.chunk.css",
+    "static/js/main.6ca5e9c9.chunk.js"
   ]
 }
