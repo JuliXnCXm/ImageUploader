@@ -9,7 +9,7 @@ import { useParams } from 'react-router-dom';
 const Photo = () => {
     const [image,setImage] = useState('');
     const [loading,setLoading] = useState(true);
-
+    const [showTooltip, setShowTooltip] = useState(false)
 
     let {id} = useParams();
     useEffect(() => {
@@ -26,6 +26,13 @@ const Photo = () => {
         setLoading(false)
     },1000)
 
+    const handleClick = () => {
+        setShowTooltip(true)
+        navigator.clipboard.writeText(`${server}/user/photo/image/${id}`);
+        setTimeout(() => {
+            setShowTooltip(false)
+        }, 4000)
+    }
 
     return(loading ? <div className="loading">
             loading
@@ -42,9 +49,13 @@ const Photo = () => {
                 <div className='copyLinkContainer'>
                     <div className='textContainer'>
                             <input defaultValue={`${server}/user/photo/image/${id}`}/>
-                        <button className="copyLinkButton" onClick={() => {
-                                navigator.clipboard.writeText( `${server}/user/photo/image/${ id }`)}
-                            }>Copy Link</button>
+                        {showTooltip && 
+                            <div className='Tooltip'>
+                                <span>!Copied</span>
+                            </div>
+                        }
+                        <button className="copyLinkButton" onClick={handleClick}
+                            >Copy Link</button>
                     </div>
                 </div>
             </div >

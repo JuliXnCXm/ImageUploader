@@ -1,19 +1,17 @@
 import React from 'react'
-import {Modal} from 'react-bootstrap'
-import '../styles/modal.css'
+import '../styles/Modal.css'
 
-const ProgresBar = ({show}) => {
-
+const ProgresBar = ({isError}) => {
     return (
-        <Modal show={show} >
-            <div className="modalProgres">
-                <h2>Uploading ...</h2>
-                <div className='loader-bar'>
-                    <div className='loader-blue'></div>
-                </div>
+        <div className="modalProgres">
+            <h2>
+                {isError ? "Error While Uploading" : "Uploading ..."}
+            </h2>
+            <div className="loader-bar">
+                <div className={isError ? "loader-red" : "loader-blue"}></div>
             </div>
-        </Modal>
-    )
+        </div>
+    );
 }
 
 export default ProgresBar
